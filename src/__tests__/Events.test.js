@@ -16,6 +16,9 @@ describe("<Event /> component", () => {
     expect(EventWrapper.find(".EventLocation")).toHaveLength(1);
   });
 
+  test("Date and timezone are shown", () => {
+    expect(EventWrapper.find(".EventDate")).toHaveLength(1);
+  });
 
   test("Show more button is render", () => {
     expect(EventWrapper.find(".showMore")).toHaveLength(1);
