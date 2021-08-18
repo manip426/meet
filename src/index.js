@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import * as atatus from 'atatus-spa';
+atatus.config('9f3cd62cd10541eb9baa09ef1c3095a5').install();
 
 ReactDOM.render(
   <React.StrictMode>
