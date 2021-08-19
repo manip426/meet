@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 
-import { mockData } from "./mock-data";
+//import { mockData } from "./mock-data";
 
 class Event extends Component {
   state = {
