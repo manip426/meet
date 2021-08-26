@@ -6,7 +6,6 @@ import CitySearch from "./CitySearch";
 import { WarningAlert } from "./Alert";
 import { getEvents, extractLocations, checkToken, getAccessToken } from "./api";
 // import { mockData } from "./mock-data";
-import { extractLocations } from "./api";
 import "./style.css";
 import WelcomeScreen from "./WelcomeScreen";
 import EventGenre from "./EventGenre";
